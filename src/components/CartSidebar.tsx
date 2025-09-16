@@ -1,4 +1,4 @@
-import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetDescription } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { useCart } from '@/contexts/CartContext';
@@ -27,6 +27,9 @@ export const CartSidebar = () => {
               <Badge variant="secondary">{items.length}</Badge>
             )}
           </SheetTitle>
+          <SheetDescription className="sr-only">
+            Quick view of your shopping cart
+          </SheetDescription>
         </SheetHeader>
         
         <div className="flex-1 flex flex-col overflow-hidden">
