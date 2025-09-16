@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smart Shopping Chatbot Design System
+All colors MUST be HSL. Shopping-focused modern design.
+*/
+
+@layer base {
+  :root {
+    /* Shopping-focused color palette */
+    --background: 240 20% 98%;
+    --foreground: 240 15% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 15% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 15% 15%;
+
+    /* Primary: Trust-building blue for shopping */
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 217 91% 70%;
+
+    /* Secondary: Premium purple accents */
+    --secondary: 280 65% 60%;
+    --secondary-foreground: 0 0% 100%;
+
+    /* Shopping success green */
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    /* Shopping alert orange */
+    --warning: 38 92% 50%;
+    --warning-foreground: 0 0% 100%;
+
+    --muted: 240 10% 96%;
+    --muted-foreground: 240 8% 46%;
+
+    --accent: 240 8% 95%;
+    --accent-foreground: 240 15% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 240 10% 90%;
+    --input: 240 10% 95%;
+    --ring: 217 91% 60%;
+
+    /* Chat-specific colors */
+    --chat-user: 217 91% 60%;
+    --chat-user-foreground: 0 0% 100%;
+    --chat-bot: 0 0% 100%;
+    --chat-bot-foreground: 240 15% 15%;
+
+    /* Product card colors */
+    --product-card: 0 0% 100%;
+    --product-card-border: 240 10% 88%;
+    --product-price: 142 76% 36%;
+    --product-discount: 0 84% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(280 65% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 20% 98%), hsl(240 10% 95%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(240 8% 98%));
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --bounce-gentle: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    /* Shadows */
+    --shadow-soft: 0 2px 8px hsl(240 15% 15% / 0.08);
+    --shadow-medium: 0 4px 16px hsl(240 15% 15% / 0.12);
+    --shadow-large: 0 8px 32px hsl(240 15% 15% / 0.16);
+    --shadow-glow: 0 0 20px hsl(217 91% 60% / 0.3);
+
+    --radius: 1rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    /* Primary: Same trust-building blue for consistency */
+    --primary: 217 91% 70%;
+    --primary-foreground: 240 15% 15%;
+    --primary-glow: 217 91% 80%;
+
+    /* Secondary: Brighter purple for dark mode */
+    --secondary: 280 65% 70%;
+    --secondary-foreground: 240 15% 15%;
+
+    /* Shopping colors for dark mode */
+    --success: 142 76% 46%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 60%;
+    --warning-foreground: 0 0% 100%;
+
+    --muted: 240 8% 20%;
+    --muted-foreground: 240 5% 65%;
+
+    --accent: 240 8% 25%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 240 8% 25%;
+    --input: 240 8% 25%;
+    --ring: 217 91% 70%;
+
+    /* Chat colors for dark mode */
+    --chat-user: 217 91% 70%;
+    --chat-user-foreground: 240 15% 15%;
+    --chat-bot: 240 8% 20%;
+    --chat-bot-foreground: 210 40% 98%;
+
+    /* Product card colors for dark mode */
+    --product-card: 240 8% 15%;
+    --product-card-border: 240 8% 25%;
+    --product-price: 142 76% 46%;
+    --product-discount: 0 70% 50%;
+
+    /* Dark mode gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 70%), hsl(280 65% 70%));
+    --gradient-hero: linear-gradient(135deg, hsl(240 15% 8%), hsl(240 8% 15%));
+    --gradient-card: linear-gradient(145deg, hsl(240 8% 15%), hsl(240 5% 18%));
+    
+    /* Dark mode shadows */
+    --shadow-soft: 0 2px 8px hsl(0 0% 0% / 0.3);
+    --shadow-medium: 0 4px 16px hsl(0 0% 0% / 0.4);
+    --shadow-large: 0 8px 32px hsl(0 0% 0% / 0.5);
+    --shadow-glow: 0 0 20px hsl(217 91% 70% / 0.4);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Line clamp utilities */
+  .line-clamp-1 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+  }
+  
+  .line-clamp-2 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+  
+  .line-clamp-3 {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--muted-foreground) / 0.3);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--muted-foreground) / 0.5);
+  }
+}
