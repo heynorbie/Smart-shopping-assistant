@@ -9,19 +9,41 @@ interface SuggestionPanelProps {
 }
 
 export const SuggestionPanel = ({ onSuggestionClick }: SuggestionPanelProps) => {
-  const quickSuggestions = [
+  const allSuggestions = [
     "Show me trending Amazon products",
-    "Find grocery items from BigBasket",
+    "Find grocery items from BigBasket", 
     "Show electronics under ₹5000",
-    "Find gifts under ₹4150"
+    "Find gifts under ₹4150",
+    "Show me fashion deals",
+    "Find budget-friendly accessories",
+    "Show popular beauty products",
+    "Find kitchen essentials",
+    "Show me footwear collection",
+    "Find computer accessories",
+    "Show trending electronics",
+    "Find home & garden items"
   ];
+  
+  // Randomize suggestions each render
+  const quickSuggestions = allSuggestions
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 4);
 
-  const trendingCategories = [
+  const allCategories = [
     { name: "Electronics", count: "1.4k items", icon: Zap },
     { name: "Fashion", count: "3.8k items", icon: TrendingUp },
     { name: "Grocery", count: "38k items", icon: Tag },
-    { name: "Beauty & Hygiene", count: "2.1k items", icon: Users }
+    { name: "Beauty & Hygiene", count: "2.1k items", icon: Users },
+    { name: "Footwear", count: "850 items", icon: TrendingUp },
+    { name: "Accessories", count: "1.2k items", icon: Zap },
+    { name: "Home & Kitchen", count: "2.5k items", icon: Tag },
+    { name: "Computer", count: "650 items", icon: Zap }
   ];
+  
+  // Randomize categories each render  
+  const trendingCategories = allCategories
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 4);
 
   const contextualSuggestions = [
     {
@@ -55,7 +77,7 @@ export const SuggestionPanel = ({ onSuggestionClick }: SuggestionPanelProps) => 
         <div className="grid grid-cols-1 gap-2">
           {quickSuggestions.map((suggestion, index) => (
             <Button
-              key={index}
+              key={`${suggestion}-${index}`}
               variant="ghost"
               className="justify-start text-left h-auto p-3 hover:bg-muted/50 transition-colors"
               onClick={() => onSuggestionClick(suggestion)}
@@ -63,6 +85,13 @@ export const SuggestionPanel = ({ onSuggestionClick }: SuggestionPanelProps) => 
               <span className="text-sm">{suggestion}</span>
             </Button>
           ))}
+          <Button
+            variant="outline"
+            className="justify-center mt-2 text-primary border-primary/20 hover:bg-primary/5"
+            onClick={() => window.location.reload()}
+          >
+            🎲 Show me something new
+          </Button>
         </div>
       </Card>
 

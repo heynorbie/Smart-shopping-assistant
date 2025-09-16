@@ -109,10 +109,11 @@ const ShoppingChat = () => {
       filtered = filtered.filter(product => product.price <= 5000);
     }
 
-    // Sort by rating and limit results
+    // Randomize and sort by rating, then limit results
     return filtered
+      .sort(() => Math.random() - 0.5)
       .sort((a, b) => b.rating - a.rating)
-      .slice(0, 8);
+      .slice(0, 6);
   };
 
   const handleSendMessage = (message: string) => {
