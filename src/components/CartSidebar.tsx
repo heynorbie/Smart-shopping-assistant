@@ -18,7 +18,7 @@ export const CartSidebar = () => {
 
   return (
     <Sheet open={isOpen} onOpenChange={setIsOpen}>
-      <SheetContent className="w-full sm:max-w-lg">
+      <SheetContent className="w-full sm:max-w-lg flex flex-col h-full">
         <SheetHeader>
           <SheetTitle className="flex items-center gap-2">
             <ShoppingCart className="h-5 w-5" />
@@ -29,7 +29,7 @@ export const CartSidebar = () => {
           </SheetTitle>
         </SheetHeader>
         
-        <div className="flex flex-col h-full">
+        <div className="flex-1 flex flex-col overflow-hidden">
           {items.length === 0 ? (
             <div className="flex-1 flex items-center justify-center flex-col gap-4 text-center">
               <ShoppingCart className="h-16 w-16 text-muted-foreground" />
