@@ -18,7 +18,7 @@ const Index = () => {
               <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center shadow-elegant">
                 <ShoppingBag className="w-6 h-6 text-primary-foreground" />
               </div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-hero-text-primary via-hero-text-secondary to-hero-text-accent bg-clip-text text-transparent">
+              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent text-shadow">
                 ShopSmart AI
               </h1>
             </div>
@@ -40,12 +40,12 @@ const Index = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
               <div className="space-y-4">
-                <h2 className="text-5xl lg:text-6xl font-bold leading-tight">
-                  <span className="bg-gradient-to-r from-hero-text-primary to-hero-text-secondary bg-clip-text text-transparent">
+                <h2 className="text-5xl lg:text-6xl font-bold leading-tight hero-text">
+                  <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent text-shadow-strong">
                     Smart Shopping
                   </span>
                   <br />
-                  <span className="text-hero-text-primary">Made Simple</span>
+                  <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent text-shadow-strong">Made Simple</span>
                 </h2>
                 <p className="text-xl text-hero-text-muted leading-relaxed max-w-lg">
                   Discover thousands of products with AI-powered recommendations, real-time analytics, and intelligent search across multiple platforms.
@@ -158,7 +158,7 @@ const Index = () => {
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
                 <ShoppingBag className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="text-footer-text font-semibold">ShopSmart AI</span>
+              <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent font-semibold text-shadow">ShopSmart AI</span>
             </div>
             <p className="text-footer-muted text-sm">
               © 2024 ShopSmart AI. Powered by advanced analytics and AI.
