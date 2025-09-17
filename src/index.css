@@ -10,13 +10,13 @@ All colors MUST be HSL. Shopping-focused modern design.
   :root {
     /* Shopping-focused color palette */
     --background: 240 20% 98%;
-    --foreground: 240 15% 15%;
+    --foreground: 0 0% 0%;
 
     --card: 0 0% 100%;
-    --card-foreground: 240 15% 15%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 240 15% 15%;
+    --popover-foreground: 0 0% 0%;
 
     /* Primary: Trust-building blue for shopping */
     --primary: 217 91% 60%;
@@ -36,10 +36,10 @@ All colors MUST be HSL. Shopping-focused modern design.
     --warning-foreground: 0 0% 100%;
 
     --muted: 240 10% 96%;
-    --muted-foreground: 240 8% 46%;
+    --muted-foreground: 0 0% 0%;
 
     --accent: 240 8% 95%;
-    --accent-foreground: 240 15% 15%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
@@ -50,9 +50,9 @@ All colors MUST be HSL. Shopping-focused modern design.
 
     /* Chat-specific colors */
     --chat-user: 217 91% 60%;
-    --chat-user-foreground: 0 0% 100%;
+    --chat-user-foreground: 0 0% 0%;
     --chat-bot: 0 0% 100%;
-    --chat-bot-foreground: 240 15% 15%;
+    --chat-bot-foreground: 0 0% 0%;
 
     /* Product card colors */
     --product-card: 0 0% 100%;
@@ -79,15 +79,15 @@ All colors MUST be HSL. Shopping-focused modern design.
 
     --sidebar-background: 0 0% 98%;
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-foreground: 0 0% 0%;
 
     --sidebar-primary: 240 5.9% 10%;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-primary-foreground: 0 0% 0%;
 
     --sidebar-accent: 240 4.8% 95.9%;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-accent-foreground: 0 0% 0%;
 
     --sidebar-border: 220 13% 91%;
 
@@ -96,22 +96,22 @@ All colors MUST be HSL. Shopping-focused modern design.
 
   .dark {
     --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --foreground: 0 0% 0%;
 
     --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card-foreground: 0 0% 0%;
 
     --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover-foreground: 0 0% 0%;
 
     /* Primary: Same trust-building blue for consistency */
     --primary: 217 91% 70%;
-    --primary-foreground: 240 15% 15%;
+    --primary-foreground: 0 0% 0%;
     --primary-glow: 217 91% 80%;
 
     /* Secondary: Brighter purple for dark mode */
     --secondary: 280 65% 70%;
-    --secondary-foreground: 240 15% 15%;
+    --secondary-foreground: 0 0% 0%;
 
     /* Shopping colors for dark mode */
     --success: 142 76% 46%;
@@ -121,13 +121,13 @@ All colors MUST be HSL. Shopping-focused modern design.
     --warning-foreground: 0 0% 100%;
 
     --muted: 240 8% 20%;
-    --muted-foreground: 240 5% 65%;
+    --muted-foreground: 0 0% 0%;
 
     --accent: 240 8% 25%;
-    --accent-foreground: 210 40% 98%;
+    --accent-foreground: 0 0% 0%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 0%;
 
     --border: 240 8% 25%;
     --input: 240 8% 25%;
@@ -135,9 +135,9 @@ All colors MUST be HSL. Shopping-focused modern design.
 
     /* Chat colors for dark mode */
     --chat-user: 217 91% 70%;
-    --chat-user-foreground: 240 15% 15%;
+    --chat-user-foreground: 0 0% 0%;
     --chat-bot: 240 8% 20%;
-    --chat-bot-foreground: 210 40% 98%;
+    --chat-bot-foreground: 0 0% 0%;
 
     /* Product card colors for dark mode */
     --product-card: 240 8% 15%;
