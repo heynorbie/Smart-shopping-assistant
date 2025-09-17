@@ -41,11 +41,11 @@ const Index = () => {
             <div className="space-y-8">
               <div className="space-y-4">
                 <h2 className="text-5xl lg:text-6xl font-bold leading-tight hero-text">
-                  <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent text-shadow-strong">
+                  <span className="text-foreground text-shadow-strong">
                     Smart Shopping
                   </span>
                   <br />
-                  <span className="bg-gradient-to-r from-primary via-secondary to-primary bg-clip-text text-transparent text-shadow-strong">Made Simple</span>
+                  <span className="text-foreground text-shadow-strong">Made Simple</span>
                 </h2>
                 <p className="text-xl text-hero-text-muted leading-relaxed max-w-lg">
                   Discover thousands of products with AI-powered recommendations, real-time analytics, and intelligent search across multiple platforms.
