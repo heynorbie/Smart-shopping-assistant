@@ -16,7 +16,7 @@ const Index = () => {
           <div className="flex items-center justify-between mb-12">
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 bg-gradient-primary rounded-xl flex items-center justify-center shadow-elegant">
-                <ShoppingBag className="w-6 h-6 text-white" />
+                <ShoppingBag className="w-6 h-6 text-primary-foreground" />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-hero-text-primary via-hero-text-secondary to-hero-text-accent bg-clip-text text-transparent">
                 ShopSmart AI
@@ -97,7 +97,7 @@ const Index = () => {
             {features.map((feature) => (
               <Card key={feature.title} className="p-8 bg-card-background border-card-border hover:shadow-card-hover transition-all duration-300 group">
                 <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shadow-elegant">
-                  <feature.icon className="w-6 h-6 text-white" />
+                  <feature.icon className="w-6 h-6 text-primary-foreground" />
                 </div>
                 <h4 className="text-xl font-semibold mb-4 text-card-heading">
                   {feature.title}
@@ -117,10 +117,10 @@ const Index = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             {stats.map((stat) => (
               <div key={stat.label} className="space-y-2">
-                <div className="text-4xl font-bold text-white">
+                <div className="text-4xl font-bold text-primary-foreground">
                   {stat.value}
                 </div>
-                <div className="text-white/80 font-medium">
+                <div className="text-primary-foreground/80 font-medium">
                   {stat.label}
                 </div>
               </div>
@@ -156,7 +156,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                <ShoppingBag className="w-4 h-4 text-white" />
+                <ShoppingBag className="w-4 h-4 text-primary-foreground" />
               </div>
               <span className="text-footer-text font-semibold">ShopSmart AI</span>
             </div>

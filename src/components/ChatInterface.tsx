@@ -114,8 +114,8 @@ export const ChatInterface = ({ messages, onSendMessage, isTyping }: ChatInterfa
             </AvatarFallback>
           </Avatar>
           <div>
-            <h3 className="text-lg font-semibold text-white">Shopping Assistant</h3>
-            <p className="text-sm text-white/80">Your personal shopping companion</p>
+            <h3 className="text-lg font-semibold text-primary-foreground">Shopping Assistant</h3>
+            <p className="text-sm text-primary-foreground/80">Your personal shopping companion</p>
           </div>
         </div>
       </div>

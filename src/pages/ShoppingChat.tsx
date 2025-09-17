@@ -212,7 +212,7 @@ const ShoppingChat = () => {
               variant="outline"
               size="sm"
               onClick={() => navigate('/analytics')}
-              className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20"
+              className="flex items-center gap-2 bg-primary/10 backdrop-blur-sm border-primary/20 text-primary-foreground hover:bg-primary/20"
             >
               <BarChart3 className="h-4 w-4" />
               Analytics
@@ -221,7 +221,7 @@ const ShoppingChat = () => {
               variant="outline"
               size="sm"
               onClick={() => navigate('/mnist')}
-              className="flex items-center gap-2 bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/20"
+              className="flex items-center gap-2 bg-primary/10 backdrop-blur-sm border-primary/20 text-primary-foreground hover:bg-primary/20"
             >
               <Brain className="h-4 w-4" />
               MNIST
