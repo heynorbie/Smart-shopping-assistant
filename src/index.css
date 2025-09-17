@@ -9,13 +9,13 @@ All colors MUST be HSL. Shopping-focused modern design.
 @layer base {
   :root {
     /* Shopping-focused color palette */
-    --background: 240 20% 98%;
+    --background: 240 15% 92%;
     --foreground: 0 0% 0%;
 
-    --card: 0 0% 100%;
+    --card: 240 8% 96%;
     --card-foreground: 0 0% 0%;
 
-    --popover: 0 0% 100%;
+    --popover: 240 8% 96%;
     --popover-foreground: 0 0% 0%;
 
     /* Primary: Trust-building blue for shopping */
@@ -35,10 +35,10 @@ All colors MUST be HSL. Shopping-focused modern design.
     --warning: 38 92% 50%;
     --warning-foreground: 0 0% 100%;
 
-    --muted: 240 10% 96%;
+    --muted: 240 8% 88%;
     --muted-foreground: 0 0% 0%;
 
-    --accent: 240 8% 95%;
+    --accent: 240 8% 90%;
     --accent-foreground: 0 0% 0%;
 
     --destructive: 0 84% 60%;
@@ -210,5 +210,29 @@ All colors MUST be HSL. Shopping-focused modern design.
   
   ::-webkit-scrollbar-thumb:hover {
     background: hsl(var(--muted-foreground) / 0.5);
+  }
+  
+  /* Text contrast and legibility improvements */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
+    text-shadow: 0 1px 2px hsl(0 0% 0% / 0.1);
+  }
+  
+  .text-shadow {
+    text-shadow: 0 1px 2px hsl(0 0% 0% / 0.15);
+  }
+  
+  .text-shadow-strong {
+    text-shadow: 0 2px 4px hsl(0 0% 0% / 0.25);
+  }
+  
+  /* Enhanced contrast for buttons and important text */
+  button {
+    @apply font-semibold;
+  }
+  
+  .hero-text {
+    @apply font-bold;
+    text-shadow: 0 2px 4px hsl(0 0% 0% / 0.2);
   }
 }
