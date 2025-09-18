@@ -5,12 +5,17 @@
 **Drive URL: *https://drive.google.com/drive/folders/1CCspHjX5wJnUo-MUMdelAk5o96pWR4XY?usp=sharing***
 
 **🚀 SCREENSHOTS**
-<img width="1920" height="1080" alt="Page 1" src="https://github.com/user-attachments/assets/4129da1e-da1a-43dd-9338-902f475b6c78" />
-<img width="1920" height="1080" alt="Page 2" src="https://github.com/user-attachments/assets/aad91873-efbb-41b4-a38c-734ccf735305" />
-<img width="1920" height="1080" alt="Page 3" src="https://github.com/user-attachments/assets/e828d311-e15c-42a0-be55-3db05132249f" />
-<img width="1920" height="1080" alt="Page 4" src="https://github.com/user-attachments/assets/57c89e87-0fca-4618-a15b-6a090924dbd5" />
-<img width="1920" height="1080" alt="Page 5" src="https://github.com/user-attachments/assets/24b569d8-e50e-4bde-8d0b-f375e45fb43c" />
-<img width="1920" height="1080" alt="Page 6" src="https://github.com/user-attachments/assets/1cb3533f-5b9b-496c-b796-386561637387" />
+
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/ba1badb6-ed99-473b-a720-d333c33eca2e" />
+
+<img width="1920" height="1080" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/5f00992d-662f-4ede-af72-819a39565e6c" />
+
+<img width="1920" height="1080" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/2e948b80-cdce-4471-8924-ba3257ea4eb1" />
+
+<img width="1920" height="1080" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/e67e3ea4-e2be-443a-a5ba-921aa6c12153" />
+
+<img width="1920" height="1080" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/d5903329-c84b-4ff5-8b2b-2bba39d36fa5" />
+
 
 **🚀 Features**
 1. Preference Learning
