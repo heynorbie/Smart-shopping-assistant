@@ -1,7 +1,12 @@
-# Learn more on we 8build this smart shopping assistant
+<img width="1920" height="1080" alt="Page 1" src="https://github.com/user-attachments/assets/828c0726-e864-4e5f-a640-7d9a4686f18e" /># Learn more on we 8build this smart shopping assistant
 
 ## Project info
 **Drive URL: *https://drive.google.com/drive/folders/1CCspHjX5wJnUo-MUMdelAk5o96pWR4XY?usp=sharing***
+
+<img width="1920" height="1080" alt="Page 2" src="https://github.com/user-attachments/assets/aad91873-efbb-41b4-a38c-734ccf735305" />
+<img width="1920" height="1080" alt="Page 1" src="https://github.com/user-attachments/assets/4129da1e-da1a-43dd-9338-902f475b6c78" />
+<img width="1920" height="1080" alt="Page 6" src="https://github.com/user-attachments/assets/1cb3533f-5b9b-496c-b796-386561637387" />
+
 
 ## How can You edit this code?
 
