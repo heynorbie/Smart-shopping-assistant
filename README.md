@@ -1,18 +1,11 @@
-# Welcome to your Lovable project
+# Learn more on we 8build this smart shopping assistant
 
 ## Project info
+**Drive URL: *https://drive.google.com/drive/folders/1CCspHjX5wJnUo-MUMdelAk5o96pWR4XY?usp=sharing***
 
-**URL**: https://lovable.dev/projects/bc42fb1b-1b0d-4e4f-b62a-8b62264b4b54
-
-## How can I edit this code?
+## How can You edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/bc42fb1b-1b0d-4e4f-b62a-8b62264b4b54) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -60,14 +53,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/bc42fb1b-1b0d-4e4f-b62a-8b62264b4b54) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
