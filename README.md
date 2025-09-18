@@ -1,14 +1,26 @@
-<img width="1920" height="1080" alt="Page 1" src="https://github.com/user-attachments/assets/828c0726-e864-4e5f-a640-7d9a4686f18e" /># Learn more on we 8build this smart shopping assistant
+**🛍️ SMART SHOPPING ASSISTANT 🛍️**
 
-## Project info
+**Project info**
+
 **Drive URL: *https://drive.google.com/drive/folders/1CCspHjX5wJnUo-MUMdelAk5o96pWR4XY?usp=sharing***
 
-<img width="1920" height="1080" alt="Page 2" src="https://github.com/user-attachments/assets/aad91873-efbb-41b4-a38c-734ccf735305" />
+**🚀 SCREENSHOTS**
 <img width="1920" height="1080" alt="Page 1" src="https://github.com/user-attachments/assets/4129da1e-da1a-43dd-9338-902f475b6c78" />
+<img width="1920" height="1080" alt="Page 2" src="https://github.com/user-attachments/assets/aad91873-efbb-41b4-a38c-734ccf735305" />
+<img width="1920" height="1080" alt="Page 3" src="https://github.com/user-attachments/assets/e828d311-e15c-42a0-be55-3db05132249f" />
+<img width="1920" height="1080" alt="Page 4" src="https://github.com/user-attachments/assets/57c89e87-0fca-4618-a15b-6a090924dbd5" />
+<img width="1920" height="1080" alt="Page 5" src="https://github.com/user-attachments/assets/24b569d8-e50e-4bde-8d0b-f375e45fb43c" />
 <img width="1920" height="1080" alt="Page 6" src="https://github.com/user-attachments/assets/1cb3533f-5b9b-496c-b796-386561637387" />
 
+**🚀 Features**
+1. Preference Learning
+2. Context-Aware Suggestions
+3. Budget Mode
+4. Trend Radar
+5. One-Tap Checkout
 
-## How can You edit this code?
+
+**How can You edit this code?**
 
 There are several ways of editing your application.
 
@@ -48,7 +60,7 @@ npm run dev
 - Click on "New codespace" to launch a new Codespace environment.
 - Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+**What technologies are used for this project?**
 
 This project is built with:
 
